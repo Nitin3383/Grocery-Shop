@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/css/bootstrap5.min.css">
+
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <title>Grocery</title>
+    <style>
+
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            width: 100px;
+            padding-left: 10px;
+        }
+
+        header {
+            margin-bottom: 20px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f8f9fa;
+            padding: 10px;
+        }
+
+        .navbar-toggler {
+            border: none;
+        }
+
+        .content {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-item {
+            margin-right: 15px;
+        }
+
+        .dropdown {
+            margin-right: 15px;
+        }
+
+        .btn-add {
+            background-color: rgb(155, 54, 17);
+            border: none;
+            border-radius: 12px;
+            color: #ffffff;
+            padding: 8px 16px;
+        }
+
+        .grocery-img {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
+
+        #product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .product {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            width: 200px;
+        }
+
+        #cart {
+            margin-top: 20px;
+        }
+
+        #cart-items {
+            list-style: none;
+            padding-left: 30px;
+        }
+
+        .cart-item {
+            border: 1px solid #a51d1d;
+            margin: 20px 0;
+            padding: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f8f9fa;
+            
+            bottom: 0;
+            width: 100%;
+        }
+        .content{
+            text-align: center;
+
+          
+        }
+        
+    </style>
+</head>
+<header>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <img class="logo" src="Assets/Images/img2.jpg">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto content">
+                    <li class="nav-item active ">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <div class="dropdown">
+                        <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            All Categories
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Fruits</a>
+                            <a class="dropdown-item" href="#">Vegetables</a>
+                            <a class="dropdown-item" href="#">Another Items</a>
+                        </div>
+                    </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <input type="search" class="" placeholder="Search Your Items Here !">
+                    <button type="button" class=btn-search>Search</button>
+
+                     <a href="login.html"  class="b">Logout</a>
+            </div>
+            </div>
+
+        </nav>
+</header>
+<section class="grocery-img">
+    <img class="grocery-img" src="Assets/Images/img3.jpg">
+</section>
+<section>
+    <h1 class="content">Products For Shopping!</h1>
+
+    <div id="product-container"></div>
+
+    <div id="cart">
+        <ul id="cart-items"></ul>
+    </div>
+
+
+</section>
+<footer>
+    <p>Copyright@nitinshukla.com</p>
+</footer>
+<script src="Assets/Js/home.js"></script>
+<script src="./Assets/Js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

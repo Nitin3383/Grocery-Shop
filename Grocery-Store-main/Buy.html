@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+
+    <meta charset="UTF-8">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Grocery-Store-main/Assets/css/bootstrap5.min.css">
+    <link rel="stylesheet" href="../Grocery-Store-main/Assets/css/style.css">
+
+
+    <title>Address Form</title>
+</head>
+
+<body>
+    
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <img class="logo" src="Assets/Images/img2.jpg">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto content">
+                    <li class="nav-item active ">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <div class="dropdown">
+                        <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            All Categories
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Fruits</a>
+                            <a class="dropdown-item" href="#">Vegetables</a>
+                            <a class="dropdown-item" href="#">Another Items</a>
+                        </div>
+                    </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <input type="search" class="" placeholder="Search Your Items Here !">
+                    <button type="button" class=btn-search>Search</button>
+
+                     <a href="login.html"  class="b">Logout</a>
+            </div>
+            </div>
+
+        </nav>
+</header>
+    <h1>Address Form</h1>
+    <form id="address-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+
+        <br>
+
+
+        <label for="last_name">Last Name:</label>
+
+
+        <input type="text" id="last_name" name="last_name" required>
+
+
+        <br>
+
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" required></textarea>
+        <br>
+        <a href="Invoice.html" type="submit" id="buy-now-btn">Buy Now</button>
+    </form>
+</body>
+
+</html>

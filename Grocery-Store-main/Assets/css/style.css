@@ -1,0 +1,168 @@
+/* Signup Page */
+
+form {
+  width: 30%;
+  height: auto;
+  background-color:#D2E3C8;
+  margin: 7% 0 0 0;
+  border-radius: 12px 12px;
+
+
+
+}
+
+h4 {
+  padding-top: 10px;
+  color: #86A789
+}
+
+.bg-img {
+  background-image: url(../Images/image1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.8;
+  backdrop-filter:blur(3px);
+
+
+}
+.head{
+  width:50%;
+  background-color: orange;
+  text-align: center;
+  color: antiquewhite;
+}
+
+
+
+
+
+.btn-success {
+  width: 70%;
+  border: none;
+  margin: 0 0 10px 40px;
+
+}
+
+
+.form-label {
+  /* color: white; */
+  padding-left: 10px;
+}
+
+
+/* login */
+.btn-primary {
+  width: 40%;
+  border: none;
+  margin: 0 0 10px 100px;
+
+}
+
+
+/* Home page */
+.ab {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+
+}
+
+
+.logo {
+  width: 10%;
+  height: 70px;
+}
+
+.content {
+  padding-left: 25%;
+
+
+}
+
+.right {
+  padding-right: 5%;
+  list-style: none;
+  width: 15%;
+}
+
+.btn-search {
+  background-color: orange;
+  border: none;
+  border-radius: 5px 5px;
+}
+
+.grocery-img {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading{
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom:2%;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+.btn-add{
+  background-color:greenyellow;
+ }
+
+
+ .b{
+  margin-left: 80px;
+  line-height: 50px;
+  color:rgb(172, 114, 6);
+  border:none;
+  text-decoration: none;
+
+ }
+
+
+ /* Buy Button */
+ form {
+  margin: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+#add-address-btn {
+  margin-right: 10px;
+}
+
+
+
+
+
+
+ /* Footer */
+ footer{
+ text-align: center;
+ padding: 3px;
+ background-color:whitesmoke;
+ color: black;
+}
+

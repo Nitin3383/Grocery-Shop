@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/css/bootstrap5.min.css">
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <title>Signup</title>
+</head>
+<body class="bg-img">
+    <div class="container-fluid">
+
+        <form class="mx-auto" autocomplete="on" onsubmit="return validation()">
+            <h4 class="text-center">SIGN UP</h4>
+
+            <div class="col-9 offset-1">
+              <label for="exampleInputEmail1" class="form-label">User Name</label>
+              <input type="text" class="form-control" id="username" aria-describedby="emailHelp" placeholder="User Name">
+              <p id="usererror" style="color: red;"></p>
+            </div>
+            
+            <div class="col-9 offset-1">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="useremail" aria-describedby="emailHelp" placeholder="Email">
+                <p id="emailerror" style="color:red;"></p>
+              </div>
+
+            
+            <div class="col-9 offset-1">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="userpassword" placeholder="Password">
+              <p id="pwderror" style="color: red;"></p>
+            </div>
+           
+            <a href="#" input type="button" onclick="validation();store()" value="" class="btn btn-success mt-2">Sign Up
+
+
+          </form>
+
+          <script src="./Assets/Js/signup.js"></script>
+</body>
+</html>
